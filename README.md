@@ -49,7 +49,16 @@ npx allure serve
 | Cenário de Teste                                        | Resultado | Descrição do erro |                                                                                                                                                                                                                                                 
 | :------------------------------------------------------ | :---------|:------------------|
 | `Login inválido exibe mensagem de erro`                 | True      |                   |
-| ` Cenário: Senha inválida exibe mensagem de erro`       | True      |                   |
+| ` Senha inválida exibe mensagem de erro`                | True      |                   |
 | ` Usuário bloqueado exibe mensagem de erro`             | True      |                   |
 | ` Logout retorna para a tela de login`                  | True      |                   |
+
+
+### Funcionalidade: Página do produto
+
+| Cenário de Teste                                               | Resultado | Descrição do erro |                                                                                                                                                                                                                                                 
+| :--------------------------------------------------------------| :---------|:------------------|
+| `Verificar a ordenação correta dos produtos`                   | True      |                   |
+| ` Adicionar um produto ao carrinho e verificar nome e preço`   | True      |                   |
+| ` Remover um produto do carrinho e verificar se foi removido`  | True      |                   |
 
