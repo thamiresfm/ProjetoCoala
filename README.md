@@ -57,33 +57,33 @@ npx allure serve
 ### Funcionalidade: Página do produto
 
 | Cenário de Teste                                               | Resultado | Descrição do erro |                                                                                                                                                                                                                                                 
-| :--------------------------------------------------------------| :---------|:------------------|
-| `Verificar a ordenação correta dos produtos`                   | True      |                   |
-| ` Adicionar um produto ao carrinho e verificar nome e preço`   | True      |                   |
-| ` Remover um produto do carrinho e verificar se foi removido`  | True      |                   |
+| :--------------------------------------------------------------| :------------------|:------------------|
+| `Verificar a ordenação correta dos produtos`                   | 	:white_check_mark:|                   |
+| ` Adicionar um produto ao carrinho e verificar nome e preço`   |	:white_check_mark:|                   |
+| ` Remover um produto do carrinho e verificar se foi removido`  | 	:white_check_mark:|                   |
 
 ### Funcionalidade: Página de Detalhe do Produto
 
 | Cenário de Teste                                                                                       | Resultado | Descrição do erro |                                                                                                                                                                                                                                                 
-| :------------------------------------------------------------------------------------------------------| :---------|:------------------|
-| `Verificar nome e preço na tela de detalhes`                                                           | True      |                   |
-| ` Adicionar primeiro produto ao carrinho e verificar nome e valor`                                     | True      |                   |
-| ` Remover primeiro produto do carrinho a partir da tela de detalhes`                                   | True      |                   |
-| ` Adicionar primeiro produto ao carrinho a partir da tela de detalhes e finalizar a compra com sucesso`| True      |                   |
+| :------------------------------------------------------------------------------------------------------| :------------------|:------------------|
+| `Verificar nome e preço na tela de detalhes`                                                           |	:white_check_mark:|                   |
+| ` Adicionar primeiro produto ao carrinho e verificar nome e valor`                                     |	:white_check_mark:|                   |
+| ` Remover primeiro produto do carrinho a partir da tela de detalhes`                                   | 	:white_check_mark:|                   |
+| ` Adicionar primeiro produto ao carrinho a partir da tela de detalhes e finalizar a compra com sucesso`| 	:white_check_mark:|                   |
 
 
 
 ### Funcionalidade: Página de Carrinho de Compras
 
 | Cenário de Teste                                                                                           | Resultado | Descrição do erro |                                                                                                                                                                                                                                                 
-| :----------------------------------------------------------------------------------------------------------| :---------|:------------------------------------------------------------------|
-| ` Redirecionar para a página de produtos ao clicar em "Continuar Comprando"`                               | True      |                                                                   |
-| ` Realizar compra com sucesso e exibir mensagem de sucesso`                                                | True      |                                                                   |
-| ` Exibir mensagem de validação ao tentar realizar a compra sem preencher o Nome`                           | True      |                                                                   |
-| ` Exibir mensagem de validação ao tentar realizar a compra sem preencher o Sobrenome`                      | True      |                                                                   |
-| ` Exibir mensagem de validação ao tentar realizar a compra sem preencher o CEP"`                           | True      |                                                                   |
-| ` Retornar à página do carrinho de compras ao clicar em "Cancelar"`                                        | True      |                                                                   |
-| ` Retornar à página de produtos ao clicar em "Cancelar" após preencher informações de compra`              | True      |                                                                   |
-| ` Verificar se os produtos adicionados na página de checkout têm o mesmo nome e preço da tela de produtos` | True      |                                                                   |
-| ` Tentativa de finalizar a compra sem produtos no carrinho`                                                | False     |  Mesmo sem produtos é possivel efetuar compras.                   |
-| ` Efetuar a compra de dois produtos`                                                                       | True      |                                                                   |
+| :----------------------------------------------------------------------------------------------------------| :------------------|:------------------------------------------------------------------|
+| ` Redirecionar para a página de produtos ao clicar em "Continuar Comprando"`                               |	:white_check_mark:|                                                                   |
+| ` Realizar compra com sucesso e exibir mensagem de sucesso`                                                |	:white_check_mark:|                                                                   |
+| ` Exibir mensagem de validação ao tentar realizar a compra sem preencher o Nome`                           |	:white_check_mark:|                                                                   |
+| ` Exibir mensagem de validação ao tentar realizar a compra sem preencher o Sobrenome`                      |	:white_check_mark:|                                                                   |
+| ` Exibir mensagem de validação ao tentar realizar a compra sem preencher o CEP"`                           |	:white_check_mark:|                                                                   |
+| ` Retornar à página do carrinho de compras ao clicar em "Cancelar"`                                        |	:white_check_mark:|                                                                   |
+| ` Retornar à página de produtos ao clicar em "Cancelar" após preencher informações de compra`              | 	:white_check_mark:|                                                                   |
+| ` Verificar se os produtos adicionados na página de checkout têm o mesmo nome e preço da tela de produtos` | 	:white_check_mark:|                                                                   |
+| ` Tentativa de finalizar a compra sem produtos no carrinho`                                                |	:x:               |  Mesmo sem produtos é possivel efetuar compras.                   |
+| ` Efetuar a compra de dois produtos`                                                                       | 	:white_check_mark:|                                                                   |
