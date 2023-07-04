@@ -20,21 +20,24 @@ Siga as instruções no repositório oficial do Cypress.
 As dependências do projeto podem ser instaladas usando o npm. No diretório raiz do seu projeto, execute o seguinte comando:
 
 
-    ```
-     npm install 
-    ```
+```
+npm install 
+```
 - Este comando lê o arquivo package.json do seu projeto e instala todas as dependências listadas.
 ## Abrir com projeto
-   ```bash
+
+   ```
      	npx cypress run --env allure=true
-	    npx cypress open
+ 	npx cypress open
     ```
-## Executando com Allure Reports
+
+
+##	Executando com Allure Reports
 
 Executando o projeto com Allure Reports
 Rode seus testes e gere um relatório com o seguinte comando:
 
-   ```bash
+   ```
      	npx cypress run --env allure=true
 	    npx allure serve
     ```
