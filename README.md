@@ -46,7 +46,10 @@ npx allure serve
 
 ### Funcionalidade: Página de Login
 
-| Cenário de Teste                          | Resultado |                                                                                                                                                                                                                                                  
-| :---------------------------------------- | :---------|
-| `Login inválido exibe mensagem de erro`   | True      |
+| Cenário de Teste                                        | Resultado | Descrição do erro |                                                                                                                                                                                                                                                 
+| :------------------------------------------------------ | :---------|:------------------|
+| `Login inválido exibe mensagem de erro`                 | True      |                   |
+| ` Cenário: Senha inválida exibe mensagem de erro`       | True      |                   |
+| ` Usuário bloqueado exibe mensagem de erro`             | True      |                   |
+| ` Logout retorna para a tela de login`                  | True      |                   |
 
