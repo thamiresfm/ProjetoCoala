@@ -1,7 +1,7 @@
 # Projeto Coala
 
 
-##  Dependências do Projeto, e Executando com Allure Reports
+## Dependências do Projeto, e Executando com Allure Reports
 Neste tutorial, instalar as dependências do projeto e executar o projeto usando o Allure Reports.
 
 ## Requisitos de Sistema
@@ -76,7 +76,6 @@ npx allure serve
 ### Funcionalidade: Página de Carrinho de Compras
 
 | Cenário de Teste                                                                                           | Resultado | Descrição do erro |                                                                                                                                                                                                                                                 
-                                                                                                                                                                 
 | :----------------------------------------------------------------------------------------------------------| :------------------|:------------------------------------------------------------------|
 | ` Redirecionar para a página de produtos ao clicar em "Continuar Comprando"`                               |	:white_check_mark:|                                                                   |
 | ` Realizar compra com sucesso e exibir mensagem de sucesso`                                                |	:white_check_mark:|                                                                   |
