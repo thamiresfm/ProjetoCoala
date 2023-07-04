@@ -42,7 +42,7 @@ npx cypress run --env allure=true
 npx allure serve
 ```
 
-## Cénarios de Teste:
+## Cénarios de Teste: Reuldadoo de Casos de teste automatizados
 
 ### Funcionalidade: Página de Login
 
@@ -62,3 +62,11 @@ npx allure serve
 | ` Adicionar um produto ao carrinho e verificar nome e preço`   | True      |                   |
 | ` Remover um produto do carrinho e verificar se foi removido`  | True      |                   |
 
+### Funcionalidade: Página de Detalhe do Produto
+
+| Cenário de Teste                                               | Resultado | Descrição do erro |                                                                                                                                                                                                                                                 
+| :------------------------------------------------------------------------------------------------------| :---------|:------------------|
+| `Verificar nome e preço na tela de detalhes`                                                           | True      |                   |
+| ` Adicionar primeiro produto ao carrinho e verificar nome e valor`                                     | True      |                   |
+| ` Remover primeiro produto do carrinho a partir da tela de detalhes`                                   | True      |                   |
+| ` Adicionar primeiro produto ao carrinho a partir da tela de detalhes e finalizar a compra com sucesso`| True      |                   |
