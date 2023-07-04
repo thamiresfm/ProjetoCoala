@@ -85,5 +85,5 @@ npx allure serve
 | ` Retornar à página do carrinho de compras ao clicar em "Cancelar"`                                        | True      |                                                                   |
 | ` Retornar à página de produtos ao clicar em "Cancelar" após preencher informações de compra`              | True      |                                                                   |
 | ` Verificar se os produtos adicionados na página de checkout têm o mesmo nome e preço da tela de produtos` | True      |                                                                   |
-| ` Tentativa de finalizar a compra sem produtos no carrinho`                                                | True      |                                                                   |
+| ` Tentativa de finalizar a compra sem produtos no carrinho`                                                | False     |  Mesmo sem produtos é possivel efetuar compras.                   |
 | ` Efetuar a compra de dois produtos`                                                                       | True      |                                                                   |
