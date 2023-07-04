@@ -1,0 +1,21 @@
+# Arquivos e pastas a serem ignorados pelo Git no projeto Cypress
+
+
+
+# Relatórios de cobertura de código
+allure-results/
+
+# Arquivos de log
+*.log
+
+# Arquivos gerados durante a execução dos testes
+cypress/screenshots/
+cypress/videos/
+
+# Dependências do Cypress
+/node_modules/
+
+# Outros arquivos e pastas gerados durante a execução do projeto
+.DS_Store
+Thumbs.db
+dist/

@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "description": "projeto Coala",
+  "scripts": {
+    "test": "npx cypress run",
+    "cy:open": "npx cypress open",
+    "cy:allure": "npx cypress run --env allure=true"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.0",
+    "allure-commandline": "^2.23.0",
+    "cypress": "^12.16.0"
+  }
+}
