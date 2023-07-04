@@ -41,3 +41,12 @@ Rode seus testes e gere um relatório com o seguinte comando:
 npx cypress run --env allure=true
 npx allure serve
 ```
+
+## Cénarios de Teste:
+
+### Funcionalidade: Página de Login
+
+| Cenário de Teste                            Resultado                                                                                                                                                                                                                                                  
+| :---------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| `Login inválido exibe mensagem de erro`   | True
+
