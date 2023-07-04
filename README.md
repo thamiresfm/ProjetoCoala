@@ -20,7 +20,7 @@ Siga as instruções no repositório oficial do Cypress.
 As dependências do projeto podem ser instaladas usando o npm. No diretório raiz do seu projeto, execute o seguinte comando:
 
 
-    ```bash
+    ```
      npm install 
     ```
 - Este comando lê o arquivo package.json do seu projeto e instala todas as dependências listadas.
