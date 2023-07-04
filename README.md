@@ -47,11 +47,11 @@ npx allure serve
 ### Funcionalidade: Página de Login
 
 | Cenário de Teste                                        | Resultado | Descrição do erro |                                                                                                                                                                                                                                                 
-| :------------------------------------------------------ | :---------|:------------------|
-| `Login inválido exibe mensagem de erro`                 | True      |                   |
-| ` Senha inválida exibe mensagem de erro`                | True      |                   |
-| ` Usuário bloqueado exibe mensagem de erro`             | True      |                   |
-| ` Logout retorna para a tela de login`                  | True      |                   |
+| :------------------------------------------------------ | :-----------------------|:------------------|
+| `Login inválido exibe mensagem de erro`                 | :white_check_mark:      |                   |
+| ` Senha inválida exibe mensagem de erro`                |	:white_check_mark:      |                   |
+| ` Usuário bloqueado exibe mensagem de erro`             |	:white_check_mark:      |                   |
+| ` Logout retorna para a tela de login`                  |	:white_check_mark:      |                   |
 
 
 ### Funcionalidade: Página do produto
