@@ -47,6 +47,6 @@ npx allure serve
 ### Funcionalidade: Página de Login
 
 | Cenário de Teste                            Resultado                                                                                                                                                                                                                                                  
-| :---------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| `Login inválido exibe mensagem de erro`   | True
+| :---------------------------------------- | :-----|
+| `Login inválido exibe mensagem de erro`   | True  |
 
