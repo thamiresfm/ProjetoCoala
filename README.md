@@ -42,6 +42,23 @@ npx cypress run --env allure=true
 npx allure serve
 ```
 
+## Estrutura do projeto
+
+### A estrutura do projeto é organizada da seguinte forma:
+
+
+- cypress/e2e: Contém os arquivos de teste em formato .cy.js.
+
+
+- cypress/support: Contém os arquivos de suporte para os testes, como comandos personalizados e configurações globais.
+
+
+- cypress/fixtures: Contém os arquivos de dados usados nos testes, como dados de entrada e respostas de API mockadas.
+
+
+- cypress/screenshots e cypress/videos: Diretórios para armazenar capturas de tela e vídeos dos testes, respectivamente.
+
+
 ## Cénarios de Teste: Resultados de Casos de teste automatizados
 
 ### Funcionalidade: Página de Login
