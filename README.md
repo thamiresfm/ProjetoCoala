@@ -1,7 +1,7 @@
 # Projeto Coala
 
 
-## Instalando o Cypress e Dependências do Projeto, e Executando com Allure Reports
+## Dependências do Projeto, e Executando com Allure Reports
 Neste tutorial, instalar as dependências do projeto e executar o projeto usando o Allure Reports.
 
 ## Requisitos de Sistema
