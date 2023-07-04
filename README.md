@@ -42,7 +42,7 @@ npx cypress run --env allure=true
 npx allure serve
 ```
 
-## Cénarios de Teste: Resuldado de Casos de teste automatizados
+## Cénarios de Teste: Resultados de Casos de teste automatizados
 
 ### Funcionalidade: Página de Login
 
