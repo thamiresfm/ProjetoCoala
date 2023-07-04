@@ -26,10 +26,10 @@ npm install
 - Este comando lê o arquivo package.json do seu projeto e instala todas as dependências listadas.
 ## Abrir com projeto
 
-   ```
-     	npx cypress run --env allure=true
- 	npx cypress open
-    ```
+```
+npx cypress run --env allure=true
+npx cypress open
+```
 
 
 ##	Executando com Allure Reports
@@ -37,7 +37,7 @@ npm install
 Executando o projeto com Allure Reports
 Rode seus testes e gere um relatório com o seguinte comando:
 
-   ```
-     	npx cypress run --env allure=true
-	    npx allure serve
-    ```
+```
+npx cypress run --env allure=true
+npx allure serve
+```
