@@ -42,7 +42,7 @@ npx cypress run --env allure=true
 npx allure serve
 ```
 
-## Cénarios de Teste: Reuldadoo de Casos de teste automatizados
+## Cénarios de Teste: Resuldado de Casos de teste automatizados
 
 ### Funcionalidade: Página de Login
 
@@ -64,9 +64,26 @@ npx allure serve
 
 ### Funcionalidade: Página de Detalhe do Produto
 
-| Cenário de Teste                                               | Resultado | Descrição do erro |                                                                                                                                                                                                                                                 
+| Cenário de Teste                                                                                       | Resultado | Descrição do erro |                                                                                                                                                                                                                                                 
 | :------------------------------------------------------------------------------------------------------| :---------|:------------------|
 | `Verificar nome e preço na tela de detalhes`                                                           | True      |                   |
 | ` Adicionar primeiro produto ao carrinho e verificar nome e valor`                                     | True      |                   |
 | ` Remover primeiro produto do carrinho a partir da tela de detalhes`                                   | True      |                   |
 | ` Adicionar primeiro produto ao carrinho a partir da tela de detalhes e finalizar a compra com sucesso`| True      |                   |
+
+
+
+### Funcionalidade: Página de Carrinho de Compras
+
+| Cenário de Teste                                                                                           | Resultado | Descrição do erro |                                                                                                                                                                                                                                                 
+| :----------------------------------------------------------------------------------------------------------| :---------|:------------------------------------------------------------------|
+| ` Redirecionar para a página de produtos ao clicar em "Continuar Comprando"`                               | True      |                                                                   |
+| ` Realizar compra com sucesso e exibir mensagem de sucesso`                                                | True      |                                                                   |
+| ` Exibir mensagem de validação ao tentar realizar a compra sem preencher o Nome`                           | True      |                                                                   |
+| ` Exibir mensagem de validação ao tentar realizar a compra sem preencher o Sobrenome`                      | True      |                                                                   |
+| ` Exibir mensagem de validação ao tentar realizar a compra sem preencher o CEP"`                           | True      |                                                                   |
+| ` Retornar à página do carrinho de compras ao clicar em "Cancelar"`                                        | True      |                                                                   |
+| ` Retornar à página de produtos ao clicar em "Cancelar" após preencher informações de compra`              | True      |                                                                   |
+| ` Verificar se os produtos adicionados na página de checkout têm o mesmo nome e preço da tela de produtos` | True      |                                                                   |
+| ` Tentativa de finalizar a compra sem produtos no carrinho`                                                | True      |                                                                   |
+| ` Efetuar a compra de dois produtos`                                                                       | True      |                                                                   |
